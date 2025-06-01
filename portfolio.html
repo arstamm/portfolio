@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #000000;
+            font-size: 20px;
+            background-color: #3C6997;
+        }
+        header {
+            background: #094074;
+            color: #F2F3D9;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+
+        h1 {
+            color: #F9DB6D;
+            font-size: 60px;
+        }
+
+        h2 {
+            color: #F2F3D9;
+            font-size: 30px;
+        }
+
+        a {
+            color:#F2F3D9;
+        }
+
+        .content {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .content > div {
+            flex: 1 1 45%;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            font-size: 23px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #094074;
+            color: #F2F3D9;
+            margin-top: 20px;
+        }
+        img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portfolio</h1>
+        <h2>Andrew Stamm - Computer Science Major</h2>
+    </header>
+    <section>
+        <h2>About Me</h2>
+        <p>I am a computer science major, and these are some programming projects I've worked on.</p>
+    </section>
+    <section>
+        <h2>Martian</h2>
+        <a href="https://github.com/arstamm/martian">(see project in GitHub)</a>
+        <div class="content">
+            <div>
+                <p>I worked with Taylor Shaw to create this. Taylor came up with the concept as well as the artwork, and I braught it to life using the Raylib library in C#. This is a 2D survival game. From this project, I learned the basics of object oriented programming.</p>
+            </div>
+            <div>
+                 <img src="pictures/martian.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>Batttleship</h2>
+        <a href="https://github.com/arstamm/battleship">(see project in GitHub)</a>
+        <div class="content">
+            <div>
+                <img src="pictures/battle.png" alt="">
+            </div>
+            <div>
+                <p>This was a team project. Using the GGEZ library with Rust, we re-created the game Battleship. A well known fact about Rust is that it is STRICT. Make just the slightest mistake, and the Rust compiler will call you out. Coding with Rust taught me how to be consious of coding with proper datatypes and memory safety in mind.</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>USU 2025 Hackathon Project</h2>
+        <a href="https://github.com/arstamm/rick">(see project in GitHub)</a>
+        <div class="content">
+            <div>
+                <p>This was wild! I showed up to this hack-a-thon not knowing what a hack-a-thon even was and I threw this website together. This website is a recreation of "Dance Dance Revolution" for the computer. Disclaimer: This was programmed at 3am, so the code for this is not the cleanest, but it was fun! What I gained most from this was setting and finishing a challenging goal. This project is far from perfect, but I felt accomplished afterward.</p>
+            </div>
+            <div>
+                <img src="pictures/rick.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>Faces</h2>
+        <a href="https://github.com/arstamm/faces">(see project in GitHub)</a>
+        <div class="content">
+            <div>
+                <img src="pictures/faces.png" alt="">
+            </div>
+            <div>
+                <p>I created this after being introduced to python for the first time. This program draws the a picture of stick figures based off of an artform my sister created as a teenager. This project taught me how to nest functions within functions and pass functions to other functions as parameters.</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h2>Art Site</h2>
+        <a href="https://github.com/arstamm/art-site">(see project in GitHub)</a>
+        <div class="content">
+            <div>
+                <p>This was a concept website I made where people can showcase their art and get ideas for their next big project. During this project, I learned the basics of web design and styling.</p>
+            </div>
+            <div>
+                <img src="pictures/artsite.png" alt="">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Andrew Stamm - Computer Science Major</p>
+    </footer>
+</body>
+</html>
